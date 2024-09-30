@@ -1,0 +1,32 @@
+/*  ---------------Box Sizing-----------------  */
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+
+
+body {
+    background-color: #665D4E;
+    font-family: "Mate", serif;
+  
+    
+}
+
+main{
+
+}
+
+header.primary{
+  background-color: #BB9250;
+  color: white;
+  text-align: center;
+}
+
+section{
+  
+}
