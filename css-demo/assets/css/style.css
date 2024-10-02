@@ -1,4 +1,4 @@
-/*  ---------------Box Sizing-----------------  */
+\/*  ---------------Box Sizing-----------------  */
 html {
     box-sizing: border-box;
   }
@@ -13,20 +13,85 @@ html {
 body {
     background-color: #665D4E;
     font-family: "Mate", serif;
-  
+    margin:0;
     
-}
-
-main{
-
 }
 
 header.primary{
   background-color: #BB9250;
   color: white;
   text-align: center;
+  
+  /*T,R,B,L*/
+  padding: 10px 30px 10px 30px;
+  
+  /*Two-hand*/
+  padding: 10px 30px;
+  text-shadow: 1px 1px white;
 }
 
-section{
+header.primary h1{
+  font-size: 2.4rem;
+  margin: 20px 0 0;
+}
+
+header.primary h1 a{
+  color: white;
+  text-decoration: none;
+}
+
+header.primary h2{
+  font-size: 1.4rem;
+  padding: 0;
+  margin: 0;
+}
+
+header.primary nav{
+  margin: 0;
+}
+
+header.primary nav ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+}
+
+header.primary nav ul li{
+  list-style-type: none;
+  
+}
+
+header.primary nav ul li a{
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border:1px solid white;
+  border-style: groove;
+  padding: 7.5px 10px;
+  background-color: rgba(102,93,78, 0.3);
+  border-radius: 15px 0;
+  transition: 0.3s;
+}
+
+header.primary nav ul li a:hover{
+  background: #917A56;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 490px){
+  
+header.primary nav ul{
+  flex-direction: column;
+  gap: 10px;
+  max-width: 200px;
+  margin: 10px auto;
+}
+  
+header.primary nav a{
+  display:block;
+  
+}
   
 }
