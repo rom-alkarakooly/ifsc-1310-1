@@ -11,11 +11,13 @@
     html {
       box-sizing: border-box;
     }
+
     *,
     *:before,
     *:after {
       box-sizing: inherit;
     }
+
     body {
       background-color: #ECECEC;
       font-weight: bold;
@@ -24,29 +26,53 @@
       text-align: center;
       line-height: 24px;
     }
+
     #wrapper {
       background-color: #FFF;
       border: 1px solid #c0c0c0;
-      width: 800px;
+      width: 850px; 
       margin-right: auto;
       margin-left: auto;
       text-shadow: 2px 2px #000;
+      overflow: hidden; 
     }
+
+    #navy,
+    #teal,
+    #blue,
+    #aqua {
+      width: 400px; 
+      height: 150px;
+      float: left; 
+      margin: 10px; 
+    }
+
     #navy {
       background-color: #001f3f;
     }
+
     #teal {
       background-color: #39CCCC;
     }
+
     #blue {
       background-color: #0074D9;
     }
+
     #aqua {
       background-color: #7FDBFF;
     }
+
     #footer {
       background-color: #666;
+      clear: both; 
+      padding: 10px 0; 
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+
     }
+
     h1 {
       color: #000;
       font-weight: normal;
@@ -54,6 +80,7 @@
     }
   </style>
 </head>
+
 <body>
   <h1>Float 2</h1>
   <section id="wrapper">

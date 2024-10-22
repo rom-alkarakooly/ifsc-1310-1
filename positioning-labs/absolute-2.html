@@ -5,17 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Positioning Lab</title>
+  <title>Positioning Lab - Absolute</title>
   <style type="text/css">
     /* ---------------Box Sizing----------------- */
     html {
       box-sizing: border-box;
     }
+
     *,
     *:before,
     *:after {
       box-sizing: inherit;
     }
+
     body {
       background-color: #ECECEC;
       font-weight: bold;
@@ -23,39 +25,76 @@
       color: #FFF;
       text-align: center;
       line-height: 24px;
+      position: relative;
+      height: 100vh;
     }
+
     #wrapper {
       background-color: #FFF;
       border: 1px solid #c0c0c0;
       width: 800px;
-      margin-right: auto;
-      margin-left: auto;
+      height: 400px;
+      margin: 100px auto;
+      position: relative;
       text-shadow: 2px 2px #000;
     }
+
+    #navy,
+    #teal,
+    #blue,
+    #aqua {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+    }
+
+    /* Positioning for each box */
     #navy {
       background-color: #001f3f;
+      top: 0;
+      left: 0;
     }
+
     #teal {
       background-color: #39CCCC;
+      top: 0;
+      right: 0;
     }
+
     #blue {
       background-color: #0074D9;
+      bottom: 0;
+      left: 0;
     }
+
     #aqua {
       background-color: #7FDBFF;
+      bottom: 0;
+      right: 0;
     }
+
     #footer {
       background-color: #666;
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
+
     h1 {
       color: #000;
       font-weight: normal;
-      padding: 50px;
+      padding-top: 20px;
+      margin-bottom: 20px;
     }
   </style>
 </head>
+
 <body>
-  <h1>Absolute 2</h1>
+  <h1>Exercise</h1>
   <section id="wrapper">
     <div id="navy">Navy</div>
     <div id="teal">Teal</div>
