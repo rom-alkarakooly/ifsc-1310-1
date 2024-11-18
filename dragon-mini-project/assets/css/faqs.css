@@ -1,0 +1,165 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Body Styling */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #b3b3b3; 
+  line-height: 1.6; 
+}
+
+body section {
+padding: 10px;
+}
+
+/* -----------Header Styling----------- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+  background-color: #333;
+  color: #fff;
+  height: 100px;
+
+}
+
+header a img{
+  margin-right: auto;
+}
+
+header.primary{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    
+    /*T,R,B,L*/
+    padding: 10px 30px 10px 30px;
+    
+    /*Two-hand*/
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+
+header.primary nav a {
+    text-decoration: none;
+}
+
+header.primary nav ul li a {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+header img {
+  max-width: 300px;
+}
+
+h3 {
+  font-weight: bold; 
+  text-decoration: underline; 
+  margin-bottom: 5px; 
+  letter-spacing: 1px; 
+  text-decoration: none;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+header h1 a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  margin: 20px 0 0;
+  color: #fff;
+}
+
+header nav li {
+  margin: 20px;
+}
+
+/* Button Styling */
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 8px 8px -6px var(--hover);
+    transform: translateY(-4px);
+}
+
+.raise {
+    --hover: #ffffff;
+}
+
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: whitesmoke;
+    transition: 0.25s;
+
+
+    &:hover,
+    &:focus { 
+    border-color: var(--hover);
+    color: #fff;
+  }
+}
+
+button a {
+    color: white;
+}
+
+/* -----------Header Styling----------- */
+
+
+
+  
+/* Styling for the main content area */
+main {
+  padding: 20px;
+}
+  
+/* Styling for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+  
+/* Styling for the title */
+h1 {
+  color: #fff;
+}
+
+
+nav.raise {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+}

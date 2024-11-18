@@ -151,7 +151,7 @@ time.post-date {
 text-transform: uppercase;
 font-size: 0.6rem;
 text-align: center;
-color: #lightgray;
+color: #554A43;
 }
 
 
@@ -191,7 +191,9 @@ margin: 10px;
 font-size:1.5rem;
 }
 
-thead{}
+thead{
+ 
+}
 tr:nth-child(even){
   background-color: rgba(0, 0, 0, 0.1);
 }
