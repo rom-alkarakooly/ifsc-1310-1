@@ -63,7 +63,7 @@ ul:hover a {
   color: #CCC;
 }
 ul:hover a:hover {
-  color: #000;
+  color: #ffffff;
   box-shadow: 0 2px 0 0 currentcolor;
 }
 
@@ -95,7 +95,7 @@ section#home {
   background: url(/dragon-mini-project/assets/imgs/dragon-capsule-5.jpg) no-repeat center center/cover;
 }
 
-section#about {
+section#Projects {
   background: url(/dragon-mini-project/assets/imgs/Dragon_V2_interior.2.jpg) no-repeat center center/cover;;
 }
 
