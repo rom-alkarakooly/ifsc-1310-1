@@ -5,7 +5,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #333;
+  background: #ffffff;
   color: #fff;
   height: 100vh;
   line-height: 1.6;
@@ -72,6 +72,17 @@ ul:hover a:hover {
   width: 95px;
 }
 
+section#footer {
+  color: #5c5c5c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 5vh
+}
+
+
 section {
   display: flex;
   flex-direction: column;
@@ -103,7 +114,6 @@ section#service {
 }
 
 
-
 div#home h1 {
   opacity: 1;
   transform: translateX(-75%);
@@ -115,14 +125,11 @@ div#home p {
   font-size: 20px;
 }
 
-
-div#Projects h1 {
+div#Projects {
   transform: translateX(-65%);
-  
 }
 
 div#Projects p {
-  transform: translateX(-95%);
   width: 500px;
   height: 250px;
   justify-content: left;
@@ -134,13 +141,16 @@ div#Projects a {
   font: bolder;
 } 
 
-div#service h1 {
+
+div#service{
   transform: translateX(80%);
+}
+
+div#service h1 {
   color: black;
 } 
 
 div#service p {
-  transform: translateX(80%);
   color: rgb(0, 0, 0);
 } 
 
@@ -151,8 +161,134 @@ div#service a {
 } 
 
 
-
 /* History */
+
+section#content {
+  background: url(/dragon-mini-project-final/assets/imgs/dragon-capsule-5.jpg) no-repeat center center/cover;;
+}
+
+div#content {
+  transform: translateX(-75%);
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+div#content h1{
+  font-size: 50px;
+
+}
+div#content p {
+  color: rgb(255, 255, 255);
+  width: 500px;
+  height: 200px;
+  justify-content: left;
+  font-size: 20px;
+  padding: 5px;
+} 
+
+section#timeline {
+  background: url(/dragon-mini-project-final/assets/imgs/SpaceX_crew_edited.jpg) no-repeat center center/cover;;
+}
+
+div#timeline {
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: translateX(-55%);
+  width: 700px;
+  height: 560px;
+}
+
+div#timeline h1 {
+  font-size: 50px;
+}
+
+div#timeline ul {
+  height: 370px;
+  list-style-type: none;
+  text-align: left;
+}
+
+div#timeline ul li {
+  padding: 5px;
+}
+
+
+section#development {
+  background: url(/dragon-mini-project-final/assets/imgs/Dragon_capsule_edited.jpg) no-repeat center center/cover;;
+
+}
+
+div#development {
+  transform: translateX(70%);
+}
+
+div#development h1 {
+  font-size: 50px;
+}
+
+div#development p{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 500px;
+  height: 100px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+div#development ul li {
+  list-style-type: none;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 500px;
+  height: 100px;
+  padding: 5px;
+}
+
+.table table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.table th,
+td {
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.603);
+	color: #000000;
+  border: black solid 1px;
+}
+
+.table th {
+	text-align: left;
+}
+
+.table thead {
+	th {
+		background-color: #5c5c5c;
+    text-align: center;
+	}
+}
+
+
+section#missions {
+  background: url(/dragon-mini-project-final/assets/imgs/spacex-dragon_edited.jpg) no-repeat center center/cover;;
+
+}
+
+div#missions {
+  transform: translateX(50%);
+}
+
+div#missions h1 {
+  font-size: 50px;
+}
+
+div#missions p {
+  width: 789px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.603);
+  padding: 5px;
+}
+
+
 
 /* Fade In Text */
 
