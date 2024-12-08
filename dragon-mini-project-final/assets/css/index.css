@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  /* CSS Smooth Scroll */
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar ul li {
+  padding: 1rem;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f4f4f4;
+  font-size: 15px;
+  color: inherit;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+ul:hover a {
+  color: #CCC;
+}
+ul:hover a:hover {
+  color: #ffffff;
+  box-shadow: 0 2px 0 0 currentcolor;
+}
+
+.navbar ul a img{
+  width: 100%;
+  height: 75%;
+}
+
+.navbar ul a img {
+  width: 95px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+ 
+  /* Scroll Snap */
+  scroll-snap-align: center;
+}
+
+section h1 {
+  font-size: 4rem;
+}
+
+/* Section Images */
+section#home {
+  background: url(/dragon-mini-project-final/assets/imgs/SpaceX_satellite_in_launch.jpg) no-repeat center center/cover;;
+}
+
+section#Projects {
+  background: url(/dragon-mini-project-final/assets/imgs/Dragon_V2_interior2_opacity2.jpg) no-repeat center center/cover;;
+}
+
+section#service {
+  background: url(/dragon-mini-project-final/assets/imgs/Dragon_2_hover_test_edited.jpg) no-repeat center center/cover;;
+}
+
+
+
+div#home h1 {
+  opacity: 1;
+  transform: translateX(-75%);
+}
+
+div#home p {
+  opacity: 1;
+  transform: translateX(55%);
+  font-size: 20px;
+}
+
+
+div#Projects h1 {
+  transform: translateX(-65%);
+  
+}
+
+div#Projects p {
+  transform: translateX(-95%);
+  width: 500px;
+  height: 250px;
+  justify-content: left;
+}
+
+div#Projects a {
+  color: white;
+  text-decoration: none;
+  font: bolder;
+} 
+
+div#service h1 {
+  transform: translateX(80%);
+  color: black;
+} 
+
+div#service p {
+  transform: translateX(80%);
+  color: rgb(0, 0, 0);
+} 
+
+div#service a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font: bolder;
+} 
+
+
+
+/* History */
+
+/* Fade In Text */
+
+.fade-in-text {
+  font-family: Arial;
+  font-size: 60px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media(prefers-reduced-motion){
+  .hidden h1 {
+    transition: none;
+  }
+}
